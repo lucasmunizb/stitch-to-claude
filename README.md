@@ -81,6 +81,17 @@ Ou, já dentro do Claude Code, rode `/mcp` para ver o servidor `stitch` conectad
 
 > 💡 **Dica:** colocar os dois `export` no seu `~/.bashrc`/`~/.zshrc` mantém a chave sempre disponível entre sessões. O caminho do proxy também pode ser fixado lá (apontando para o caminho absoluto real, não `$PWD`).
 
+### 5. Use no projeto desejado
+
+> ⚠️ **Importante:** este repositório serve **apenas para registrar o MCP**. Você não trabalha aqui dentro — como o registro é no escopo `user`, o Stitch fica disponível em **qualquer** diretório.
+
+Vá até o projeto onde você realmente quer gerar/exportar telas e abra o Claude lá:
+
+```bash
+cd ~/caminho/do/seu/projeto
+claude                    # o "stitch" já aparece conectado no /mcp
+```
+
 ---
 
 ## 🧰 Ferramentas disponíveis
