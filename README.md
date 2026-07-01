@@ -135,6 +135,16 @@ gerar a tela de onboarding seguindo ele.
 Quais projetos eu tenho no Stitch? Mostre as telas do mais recente.
 ```
 
+**Exportar uma tela pronta para código:**
+```
+Pegue a tela "Login" do meu projeto Finance App no Stitch e converta em um
+componente React + Tailwind em src/components/Login.tsx, fiel ao layout,
+cores e espaçamentos do design.
+```
+> Nos bastidores o Claude usa `list_screens` para achar a tela e `get_screen`
+> para buscar o HTML/design, gerando o código na stack que você pedir
+> (React, Vue, HTML puro, etc.) direto no repositório.
+
 ---
 
 ## ⚙️ Variáveis de ambiente
